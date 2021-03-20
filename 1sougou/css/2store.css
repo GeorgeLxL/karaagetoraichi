@@ -1,0 +1,59 @@
+iframe {
+    margin: 30px 0;
+}
+.map {
+    margin-bottom: 3vw;
+}
+.map-title {
+    font-family: Yu Gothic;
+    color: #980011;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.map-subtitle {
+    font-family: Yu Gothic;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+.map-text-container {
+    display: flex;
+    justify-content: space-between;
+}
+.map-text01 {
+    font-size: 14px;
+    text-align: left;
+    width: 50%;
+}
+.map-text02 {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 40px;
+    width: 50%;
+}
+.map-text-margin {
+    margin-bottom: 20px;
+}
+@media (max-width: 650px) {
+    .map-title {
+        font-size: 22px;
+    }
+    .map-text-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .map-text01 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .map-text02 {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+@media (max-width: 400px) {
+    .map-title {
+        font-size: 20px;
+    }
+}

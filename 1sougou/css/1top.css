@@ -1,0 +1,244 @@
+.banner01 {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 56.25%;
+}
+.banner01 iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.about {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.about-img {
+	width: 70%;
+}
+.about-content {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 50px;
+	width: 30%;
+}
+.about-title {
+	font-family: Roboto;
+	text-align: center;
+	font-weight: bold;
+	font-size: 44px;
+	color: #980011;
+}
+.about-subtitle {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Roboto;
+	margin-bottom: 50px;
+}
+.about-text01 {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 80px;
+	color: #393B58!important;
+}
+.about-text02 {
+	font-size: 20px;
+	text-align: left;
+	margin-bottom: 60px;
+}
+.bg-img {
+	background-image: url("../../1sougou/image/1top/bg_top_esthe.jpg");
+	background-size: cover;
+	margin-bottom: 100px;
+}
+.bg-white-gradient {
+	background-image: linear-gradient(white, transparent 5%, transparent 95%, white);
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.bg-white-gradient img {
+	width: 55%;
+}
+.about-shop {
+	width: 45%;
+	padding-top: 130px;
+	padding-right: 70px;
+	padding-left: 70px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.shop-title {
+	font-family: Roboto;
+	font-size: 38px;
+	color: #980011;
+	font-weight: medium;
+}
+.franchise {
+	background-image: url("../../1sougou/image/1top/bg_top_skin_01.jpg");
+	background-size: cover;
+}
+.franchise img {
+	width: 100% !important;
+}
+.franchise-content {
+	display: flex;
+	justify-content: space-between;
+}
+.franchise-content01 {
+	text-align: center;
+	padding-top: 30px;
+	width: 50%;
+	padding-right: 100px;
+}
+.franchise-content02 {
+	text-align: center;
+	width: 50%;
+	padding-top: 30px;
+	padding-left: 50px;
+}
+.franchise-title {
+	font-size: 44px;
+	font-family: Roboto;
+	color: #CB9029;
+	font-weight: bold;
+}
+.careers {
+	margin-top: 100px;
+}
+.careers img {
+	width: 100%;
+}
+@media screen and (max-width: 1600px) {
+	.about-title {
+		font-size: 38px;
+	}
+	.about-subtitle {
+		font-size: 13px;
+		margin-bottom: 30px;
+	}
+	.about-text01 {
+		font-size: 16px;
+		margin-bottom: 50px;
+	}
+	.about-text02 {
+		font-size: 14px;
+		margin-bottom: 40px;
+	}
+	.about-shop {
+		padding-top: 100px;
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	.shop-title {
+		font-size: 38px;
+	}
+	.shop-title {
+		font-size: 38px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.about img {
+		width: 60%;
+	}
+	.about-content {
+		width: 40%;
+		margin-left: 30px;
+	}
+	.about-title {
+		font-size: 34px;
+	}
+	.about-subtitle {
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+	.about-text01 {
+		font-size: 14px;
+		margin-bottom: 30px;
+	}
+	.about-text02 {
+		font-size: 12px;
+		margin-bottom: 25px;
+	}
+	.about-shop {
+		padding-top: 80px;
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+	.shop-title {
+		font-size: 34px;
+	}
+	.franchise-content01 {
+		padding-top: 20px;
+		padding-right: 50px;
+	}
+	.franchise-content02 {
+		padding-top: 20px;
+		padding-left: 30px;
+	}
+	.franchise-title {
+		font-size: 34px;
+	}
+	.careers {
+		margin-top: 50px;
+	}
+}
+@media screen and (max-width: 750px) {
+	.about {
+		display: block;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.about img {
+		width: 100%;
+	}
+	.about-content {
+		width: 100%;
+		margin-left: 0;
+	}
+	.about-title {
+		font-size: 28px;
+	}
+	.bg-img {
+		margin-bottom: 50px;
+	}
+	.bg-white-gradient {
+		display: block;
+	}
+	.bg-white-gradient img {
+		width: 100%;
+	}
+	.about-shop {
+		width: 100%;
+		padding-top: 30px;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.shop-title {
+		font-size: 28px;
+	}
+	.franchise-content {
+		display: block;
+	}
+	.franchise-content01, .franchise-content02 {
+		width: 100%;
+		padding-top: 3vw;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.franchise-title {
+		font-size: 28px;
+	}
+	.careers {
+		margin-top: 30px;
+	}
+}

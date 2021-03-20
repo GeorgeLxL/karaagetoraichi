@@ -1,0 +1,129 @@
+.store-banner {
+    width: 100%;
+}
+.store-suggest {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.store-suggest-bg {
+    width: 42%;
+}
+.store-suggest-bg img {
+    width: 100%;
+}
+.store-suggest-content {
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bold;
+	font-size: 15px;
+	line-height: 2;
+}
+.store-suggest-content img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.map {
+    width: 100%;
+    height: 33vw;
+    margin: 50px 0;
+}
+.address-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.address-bg {
+    width: 47%;
+}
+.address-content {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bold;
+    padding-top: 50px;
+	font-size: 14px;
+}
+.address-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+	white-space: nowrap;
+}
+.address-tel {
+    font-size: 20px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+@media (max-width: 1600px) {
+    .address-title {
+        font-size: 28px;
+    }
+}
+@media (max-width: 1280px) {
+    .address-bg {
+        width: 40%;
+    }
+    .address-content {
+        width: 55%;
+    }
+    .address-title {
+        font-size: 28px;
+    }
+    .map {
+        height: 400px;
+    }
+    .button-container {
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+}
+@media (max-width: 900px) {
+    .address-container {
+        flex-direction: column;
+    }
+    .address-bg {
+        width: 100%;
+    }
+    .address-content {
+        width: 100%;
+    }
+	
+    .address-title {
+        font-size: 24px;
+    }
+}
+@media (max-width: 700px) {
+    .store-suggest {
+        flex-direction: column;
+    }
+    .store-suggest-bg {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .store-suggest-content {
+        width: 100%;
+    }
+    .map {
+        height: 50vw;
+    }
+    .button-container {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+}
+@media (max-width: 480px) {
+    .address-title {
+        font-size: 19px;
+    }
+    .map {
+        height: 60vw;
+    }
+}

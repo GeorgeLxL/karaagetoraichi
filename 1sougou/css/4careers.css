@@ -1,0 +1,104 @@
+.introduction {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.introduction-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.career-title {
+    font-family: Yu Gothic;
+    color: #980011;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+}
+.career-subtitle {
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.career-table {
+    margin-bottom: 100px;
+    border-collapse: collapse;
+    width: 100%;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 13px;
+}
+.career-table tr {
+    border: 1px solid #CCCCCC;
+}
+.career-table td {
+    padding: 50px;
+}
+.career-table td:first-child {
+    text-align: center;
+    width: 250px;
+    background-color: #F8EFCA;
+    font-weight: bold;
+}
+.career-table tr:last-child td:first-child {
+    white-space: nowrap;
+}
+.application {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-container {
+    margin-bottom: 30px !important;
+}
+input,
+textarea {
+    width: 80%;
+    padding: 10px;
+}
+textarea {
+    resize: none;
+    height: 100px;
+}
+.form-button {
+    max-width: 500px;
+}
+.button-container {
+    text-align: center;
+    margin-bottom: 70px;
+}
+@media (max-width: 1008px) {
+    .application-br {
+        display: none;
+    }
+}
+@media (max-width: 900px) {
+    .career-table td {
+        padding: 40px;
+    }
+    .career-table td:first-child {
+        width: 230px;
+    }
+}
+@media (max-width: 750px) {
+    input,
+    textarea {
+        width: 100%;
+    }
+    .career-table td {
+        padding: 30px;
+    }
+    .career-table td:first-child {
+        width: 210px;
+    }
+}
+@media (max-width: 600px) {
+    .career-table td {
+        padding: 3vw;
+    }
+    .career-table td:first-child {
+        width: 155px;
+    }
+    .career-table tr:last-child td:first-child {
+        white-space: normal;
+    }
+}

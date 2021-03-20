@@ -1,0 +1,558 @@
+.commit-introduction {
+    position: relative;
+    width: 100%;
+}
+.commit-introduction:first-child {
+    margin-bottom: 50px;
+}
+.commit-introduction-bg {
+    width: 100%;
+}
+.commit-content {
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 535px;
+}
+.commit-content01 {
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 535px;
+	color: #393B58;
+}
+.commit-content img {
+    width: 100%;
+}
+.commit-text {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px white;
+	color: #393B58;
+	line-height: 2;
+}
+.commit-text ul {
+    padding-inline-start: 25px;
+}
+.commit-text01 {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px white;
+	color: #393B58;
+}
+.bg-dark {
+    width: 100%;
+    background-color: #393B58;
+    position: relative;
+    height: 26vw;
+    overflow: hidden;
+}
+.bg-dark01 {
+    width: 100%;
+    background-color: #393B58;
+    overflow: hidden;
+}
+.firstslide {
+    animation: cycleone 28s infinite;
+    width: 30vw;
+    position: absolute;
+    top: 2vw;
+}
+.secondslide {
+    animation: cycletwo 28s infinite;
+    width: 30vw;
+    position: absolute;
+    top: 2vw;
+}
+.thirdslide {
+    animation: cyclethree 28s infinite;
+    width: 30vw;
+    position: absolute;
+    top: 2vw;
+}
+.fourthslide {
+    animation: cyclefour 28s infinite;
+    width: 30vw;
+    position: absolute;
+    top: 2vw;
+}
+.fifthslide {
+    animation: cyclefive 28s infinite;
+    width: 30vw;
+    position: absolute;
+    top: 2vw;
+}
+.sixthslide {
+    animation: cyclesix 28s infinite;
+    width: 30vw;
+    position: absolute;
+    top: 2vw;
+}
+.seventhslide {
+    animation: cycleseven 28s infinite;
+    width: 30vw;
+    position: absolute;
+    top: 2vw;
+}
+@keyframes cycleone {
+    0% { right: 83vw; opacity: 1;}
+    10.71428571% { right: 83vw; opacity: 1;}
+    14.28571428% { right: 115vw; opacity: 1;}
+    25% { right: 115vw; opacity: 1;}
+    28.57142857% { right: 147vw; opacity: 1;}
+    39.28571428% { right: 147vw; opacity: 0;}
+    42.85714285% { right: -45vw; opacity: 0;}
+    53.57142857% { right: -45vw; opacity: 1;}
+    57.14285714% { right: -13vw; opacity: 1;}
+    67.85714285% { right: -13vw; opacity: 1;}
+    71.42857142% { right: 19vw; opacity: 1;}
+    82.14285714% { right: 19vw; opacity: 1;}
+    85.71428571% { right: 51vw; opacity: 1;}
+    96.42857142% { right: 51vw; opacity: 1;}
+    100% { right: 83vw; opacity: 1;}
+}
+@keyframes cycletwo {
+    0% { right: 51vw; opacity: 1;}
+    10.71428571% { right: 51vw; opacity: 1;}
+    14.28571428% { right: 83vw; opacity: 1;}
+    25% { right: 83vw; opacity: 1;}
+    28.57142857% { right: 115vw; opacity: 1;}
+    39.28571428% { right: 115vw; opacity: 1;}
+    42.85714285% { right: 147vw; opacity: 1;}
+    53.57142857% { right: 147vw; opacity: 0;}
+    57.14285714% { right: -45vw; opacity: 0;}
+    67.85714285% { right: -45vw; opacity: 1;}
+    71.42857142% { right: -13vw; opacity: 1;}
+    82.14285714% { right: -13vw; opacity: 1;}
+    85.71428571% { right: 19vw; opacity: 1;}
+    96.42857142% { right: 19vw; opacity: 1;}
+    100% { right: 51vw; opacity: 1;}
+}
+@keyframes cyclethree {
+    0% { right: 19vw; opacity: 1;}
+    10.71428571% { right: 19vw; opacity: 1;}
+    14.28571428% { right: 51vw; opacity: 1;}
+    25% { right: 51vw; opacity: 1;}
+    28.57142857% { right: 83vw; opacity: 1;}
+    39.28571428% { right: 83vw; opacity: 1;}
+    42.85714285% { right: 115vw; opacity: 1;}
+    53.57142857% { right: 115vw; opacity: 1;}
+    57.14285714% { right: 147vw; opacity: 1;}
+    67.85714285% { right: 147vw; opacity: 0;}
+    71.42857142% { right: -45vw; opacity: 0;}
+    82.14285714% { right: -45vw; opacity: 1;}
+    85.71428571% { right: -13vw; opacity: 1;}
+    96.42857142% { right: -13vw; opacity: 1;}
+    100% { right: 19vw; opacity: 1;}
+}
+@keyframes cyclefour {
+    0% { right: -13vw; opacity: 1;}
+    10.71428571% { right: -13vw; opacity: 1;}
+    14.28571428% { right: 19vw; opacity: 1;}
+    25% { right: 19vw; opacity: 1;}
+    28.57142857% { right: 51vw; opacity: 1;}
+    39.28571428% { right: 51vw; opacity: 1;}
+    42.85714285% { right: 83vw; opacity: 1;}
+    53.57142857% { right: 83vw; opacity: 1;}
+    57.14285714% { right: 115vw; opacity: 1;}
+    67.85714285% { right: 115vw; opacity: 1;}
+    71.42857142% { right: 147vw; opacity: 1;}
+    82.14285714% { right: 147vw; opacity: 0;}
+    85.71428571% { right: -45vw; opacity: 0;}
+    96.42857142% { right: -45vw; opacity: 1;}
+    100% { right: -13vw; opacity: 1;}
+}
+@keyframes cyclefive {
+    0% { right: -45vw; opacity: 1;}
+    10.71428571% { right: -45vw; opacity: 1;}
+    14.28571428% { right: -13vw; opacity: 1;}
+    25% { right: -13vw; opacity: 1;}
+    28.57142857% { right: 19vw; opacity: 1;}
+    39.28571428% { right: 19vw; opacity: 1;}
+    42.85714285% { right: 51vw; opacity: 1;}
+    53.57142857% { right: 51vw; opacity: 1;}
+    57.14285714% { right: 83vw; opacity: 1;}
+    67.85714285% { right: 83vw; opacity: 1;}
+    71.42857142% { right: 115vw; opacity: 1;}
+    82.14285714% { right: 115vw; opacity: 1;}
+    85.71428571% { right: 147vw; opacity: 1;}
+    96.42857142% { right: 147vw; opacity: 0;}
+    100% { right: -45vw; opacity: 0;}
+}
+@keyframes cyclesix {
+    0% { right: 147vw; opacity: 1;}
+    10.71428571% { right: 147vw; opacity: 0;}
+    14.28571428% { right: -45vw; opacity: 0;}
+    25% { right: -45vw; opacity: 1;}
+    28.57142857% { right: -13vw; opacity: 1;}
+    39.28571428% { right: -13vw; opacity: 1;}
+    42.85714285% { right: 19vw; opacity: 1;}
+    53.57142857% { right: 19vw; opacity: 1;}
+    57.14285714% { right: 51vw; opacity: 1;}
+    67.85714285% { right: 51vw; opacity: 1;}
+    71.42857142% { right: 83vw; opacity: 1;}
+    82.14285714% { right: 83vw; opacity: 1;}
+    85.71428571% { right: 115vw; opacity: 1;}
+    96.42857142% { right: 115vw; opacity: 1;}
+    100% { right: 147vw; opacity: 1;}
+}
+@keyframes cycleseven {
+    0% { right: 115vw; opacity: 1;}
+    10.71428571% { right: 115vw; opacity: 1;}
+    14.28571428% { right: 147vw; opacity: 1;}
+    25% { right: 147vw; opacity: 0;}
+    28.57142857% { right: -45vw; opacity: 0;}
+    39.28571428% { right: -45vw; opacity: 1;}
+    42.85714285% { right: -13vw; opacity: 1;}
+    53.57142857% { right: -13vw; opacity: 1;}
+    57.14285714% { right: 19vw; opacity: 1;}
+    67.85714285% { right: 19vw; opacity: 1;}
+    71.42857142% { right: 51vw; opacity: 1;}
+    82.14285714% { right: 51vw; opacity: 1;}
+    85.71428571% { right: 83vw; opacity: 1;}
+    96.42857142% { right: 83vw; opacity: 1;}
+    100% { right: 115vw; opacity: 1;}
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.juice-content {
+    background-image: url(../image/2kodawari/bg_concept_sec03_arao_01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 57.1428vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 150px;
+}
+.juice-content01 {
+    height: 600px;
+    width: 550px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .5);
+}
+.juice-content01 img {
+    width: 100%;
+}
+.juice-text {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px white;
+}
+.wine-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    position: relative;
+}
+.wine-content01 {
+    width: 47%;
+    z-index: 1;
+}
+.wine-title {
+    width: 100%;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding: 20px 0;
+    text-align: center;
+}
+.wine-title:first-child {
+	border-bottom: none;
+}
+.wine-text {
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.wine-text01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+	font-size: 14px;
+}
+.wine-bg {
+    width: 47%;
+}
+.wine-bg img {
+    width: 100%;
+}
+.wine-bg01 {
+    display: none;
+}
+.suggest-container {
+    margin-top: 50px;
+}
+.suggest-banner {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.suggest-content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+.suggest-bg {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 48%;
+}
+.suggest-bg img {
+    width: 100%;
+}
+.suggest-text {
+    width: 48%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.suggest-text img {
+    width: 100%;
+}
+.suggest-text01 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #393B58;
+}
+@media (max-width: 1700px) {
+    .commit-content {
+        top: 100px;
+        right: 100px;
+    }
+    .commit-text {
+        font-size: 16px;
+    }
+    .commit-content01 {
+        top: 100px;
+        right: 100px;
+    }
+    .commit-text01 {
+        font-size: 16px;
+    }
+}
+@media (max-width: 1400px) {
+    .commit-content {
+        top: 50px;
+        right: 50px;
+    }
+    .commit-text {
+        font-size: 15px;
+    }
+    .commit-content01 {
+        top: 80px;
+        right: 50px;
+    }
+    .commit-text01 {
+        font-size: 16px;
+    }
+    .juice-content {
+        padding-left: 70px;
+    }
+    .juice-content01 {
+        width: 500px;
+        height: 568px;
+    }
+    .juice-text {
+        font-size: 15px;
+    }
+    .wine-text {
+        font-size: 15px;
+    }
+}
+@media (max-width: 1200px) {
+    .commit-content {
+        top: 40px;
+    }
+    .commit-text {
+        font-size: 14px;
+    }
+    .juice-content01 {
+        height: auto;
+    }
+    .wine-bottle {
+        width: 90px;
+    }
+}
+@media (max-width: 1050px) {
+    .commit-content {
+        top: 25px;
+        right: 25px;
+        width: 55%;
+    }
+    .commit-text {
+        font-size: 1.2vw;
+        text-shadow: 1px 1px white;
+    }
+    .commit-content01 {
+        top: 65px;
+        right: 25px;
+        width: 55%;
+    }
+    .commit-text01 {
+        font-size: 15px;
+        text-shadow: 1px 1px white;
+    }
+    .juice-content01 {
+        padding: 20px;
+        width: 90%;
+    }
+    .juice-content01 img {
+        width: 60%;
+    }
+    .button-container {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    .wine-content {
+        display: block;
+    }
+    .wine-content01 {
+        width: 430px;
+        position: relative;
+    }
+    .wine-bg {
+        display: none;
+    }
+    .wine-bg01 {
+        display: block;
+        background-image: url(../image/2kodawari/img_concept_wine02_parts_ryouri_arao_02.jpg);
+        background-size: 100% 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 430px;
+        height: 450px;
+        z-index: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+@media (max-width: 780px) {
+    .commit-content {
+        top: 1vw;
+        right: 1.5vw;
+        width: 100vw;
+		position: initial;
+    }
+    .commit-content img {
+        width: 100vw;
+    }
+    .commit-text {
+        margin-top: 5px;
+        font-size: 1.5vw;
+    }
+    .commit-content01 {
+        width: 100vw;
+        top: 4vw;
+        right: 1.5vw;
+		position: initial;
+    }
+	.suggest-text img{
+		margin-top: 200px;
+	}
+    .commit-text01 {
+        font-size: 13px;
+    }
+    .juice-content {
+        padding-left: 2vw;
+        padding: 2vw;
+        align-items: unset;
+    }
+    .juice-content01 {
+        width: 100%;
+        height: 100%;
+        padding: 2vw;
+    }
+    .juice-content01 img {
+        width: 50%;
+    }
+    .juice-text {
+        font-size: 10px;
+        text-shadow: 1px 1px white;
+    }
+    .button-container {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .wine-content01 {
+        width: 100%;
+    }
+    .wine-bg01 {
+        width: 80%;
+        height: 80vw;
+        top: 100px;
+    }
+}
+@media (max-width: 480px) {
+    .commit-introduction:first-child {
+        margin-bottom: 30px;
+    }
+    .commit-text01 {
+        font-size: 2vw;
+    }
+    .button-container {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .wine-text01 img {
+        width: 100%;
+    }
+    .wine-bottle {
+        width: 95px;
+    }
+    .wine-bg01 {
+        width: 100%;
+        height: 100vw;
+    }
+    .suggest-bg {
+        position: absolute;
+        width: 60%;
+        z-index: 0;
+        top: 10%;
+        opacity: 0.7;
+    }
+    .suggest-text {
+        width: 100%;
+    }
+}

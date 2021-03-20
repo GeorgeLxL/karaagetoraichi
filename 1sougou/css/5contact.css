@@ -1,0 +1,127 @@
+.contact-content {
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.contact-tel {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-left: 70px;
+}
+.contact-table {
+    margin-bottom: 100px;
+    border-collapse: collapse;
+    width: 100%;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 13px;
+}
+.contact-table tr {
+    border: 1px solid #CCCCCC;
+}
+.contact-table td {
+    padding: 50px;
+}
+.contact-table td:first-child {
+    text-align: center;
+    width: 250px;
+    background-color: #F8EFCA;
+    font-weight: bold;
+}
+.contact-table tr:last-child td:first-child {
+    white-space: nowrap;
+}
+.form-container {
+    margin-bottom: 30px !important;
+}
+input,
+textarea {
+    width: 80%;
+    padding: 10px;
+}
+textarea {
+    resize: none;
+    height: 100px;
+}
+.form-button {
+    max-width: 500px;
+}
+.button-container {
+    text-align: center;
+    margin-bottom: 70px;
+}
+@media (max-width: 1600px) {
+    .contact-content {
+        padding-right: 65px;
+        padding-left: 65px;
+    }
+    .contact-tel {
+        padding-left: 65px;
+    }
+}
+@media (max-width: 1400px) {
+    .contact-content {
+        padding-right: 57px;
+        padding-left: 57px;
+    }
+    .contact-tel {
+        padding-left: 57px;
+    }
+}
+@media (max-width: 1008px) {
+    .application-br {
+        display: none;
+    }
+}
+@media (max-width: 900px) {
+    .contact-content {
+        padding-right: 40px;
+        padding-left: 40px;
+        margin-bottom: 25px;
+    }
+    .contact-tel {
+        padding-left: 40px;
+        margin-bottom: 25px;
+    }
+    .contact-table td {
+        padding: 40px;
+    }
+    .contact-table td:first-child {
+        width: 230px;
+    }
+}
+@media (max-width: 750px) {
+    input,
+    textarea {
+        width: 100%;
+    }
+    .contact-table td {
+        padding: 30px;
+    }
+    .contact-table td:first-child {
+        width: 210px;
+    }
+}
+@media (max-width: 600px) {
+    .contact-content {
+        padding-right: 4vw;
+        padding-left: 4vw;
+        margin-bottom: 2vw;
+    }
+    .contact-tel {
+        padding-left: 4vw;
+        margin-bottom: 2vw;
+    }
+    .contact-table td {
+        padding: 3vw;
+    }
+    .contact-table td:first-child {
+        width: 155px;
+        font-size: 12px;
+    }
+    .contact-table tr:last-child td:first-child {
+        white-space: normal;
+    }
+}
